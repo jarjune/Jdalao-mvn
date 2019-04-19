@@ -12,8 +12,8 @@
 
     <parent>
         <groupId>com.jarjune</groupId>
-        <artifactId>Jdalao</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>Jdalao-framework</artifactId>
+        <version>1.0.1</version>
     </parent>
 
     <properties>

@@ -26,6 +26,9 @@
     <modules>
         <module>Jdalao-framework-common</module>
         <module>Jdalao-framework-util</module>
+        <module>Jdalao-framework-generate-code</module>
+        <module>Jdalao-framework-support</module>
+        <module>Jdalao-framework-test</module>
     </modules>
 
 </project>

@@ -5,18 +5,15 @@
     <parent>
         <groupId>com.jarjune</groupId>
         <artifactId>Jdalao-framework</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Jdalao-framework-common</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>Jdalao-framework-support</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Jdalao-framework-support-redis</module>
+    </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+
 </project>
