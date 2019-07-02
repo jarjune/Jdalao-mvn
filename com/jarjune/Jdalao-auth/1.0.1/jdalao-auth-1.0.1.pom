@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jarjune</groupId>
+    <artifactId>jdalao-auth</artifactId>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.jarjune</groupId>
+        <artifactId>jdalao-framework</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <jdalao.version>1.0.1</jdalao.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-framework-common</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-framework-util</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-framework-support</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-framework-support-redis</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-swagger</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-logger</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-auth-admin</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-auth-api</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-auth-common</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jarjune</groupId>
+                <artifactId>jdalao-auth-service</artifactId>
+                <version>${jdalao.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <!-- pagehelper -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <!-- junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.9</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+        <!-- quartz -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-quartz</artifactId>-->
+        <!--</dependency>-->
+    </dependencies>
+
+    <modules>
+        <module>jdalao-auth-api</module>
+        <module>jdalao-auth-common</module>
+        <module>jdalao-auth-service</module>
+        <module>jdalao-auth-web</module>
+        <module>jdalao-auth-admin</module>
+    </modules>
+
+</project>

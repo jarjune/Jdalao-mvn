@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>com.jarjune</groupId>
-        <artifactId>Jdalao-framework</artifactId>
+        <artifactId>jdalao-framework</artifactId>
         <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Jdalao-framework-common</artifactId>
+    <artifactId>jdalao-framework-common</artifactId>
     <version>1.0.1</version>
 
     <dependencies>

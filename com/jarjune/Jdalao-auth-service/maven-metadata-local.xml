@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.jarjune</groupId>
-  <artifactId>Jdalao-auth-service</artifactId>
+  <artifactId>jdalao-auth-service</artifactId>
   <versioning>
+    <release>1.0.1</release>
     <versions>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.1</version>
     </versions>
-    <lastUpdated>20190423050122</lastUpdated>
+    <lastUpdated>20190702102015</lastUpdated>
   </versioning>
 </metadata>
