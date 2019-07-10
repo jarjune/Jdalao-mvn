@@ -11,14 +11,4 @@
 
     <artifactId>jdalao-auth-api</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-auth-common</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-framework-common</artifactId>
-        </dependency>
-    </dependencies>
 </project>

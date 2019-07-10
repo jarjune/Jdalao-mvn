@@ -34,18 +34,6 @@
             <groupId>com.jarjune</groupId>
             <artifactId>jdalao-logger</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-framework-support-redis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-framework-common</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-framework-util</artifactId>
-        </dependency>
     </dependencies>
 
     <build>

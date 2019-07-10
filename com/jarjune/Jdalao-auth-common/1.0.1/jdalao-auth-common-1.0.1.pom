@@ -35,11 +35,7 @@
         </dependency>
         <dependency>
             <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-framework-util</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.jarjune</groupId>
-            <artifactId>jdalao-framework-common</artifactId>
+            <artifactId>jdalao-auth-api</artifactId>
         </dependency>
     </dependencies>
 </project>
