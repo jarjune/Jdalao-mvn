@@ -1,12 +1,10 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Jul 11 11:00:32 CST 2019
-https\://raw.githubusercontent.com/jarjune/Jdalao-mvn/master/.lastUpdated=1562812312275
-https\://raw.githubusercontent.com/jarjune/Jdalao-mvn/master/.error=
-https\://raw.github.com/jarjune/Jdalao-mvn/master/.lastUpdated=1562814032251
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1562812311349
+#Thu Jul 11 15:11:54 CST 2019
+https\://gitee.com/jarjune/30mvn/raw/master/.lastUpdated=1562829110740
+https\://gitee.com/jarjune/30mvn/raw/master/.error=
 https\://raw.github.com/jarjune/Jdalao-mvn/master/.error=
 http\://maven.aliyun.com/nexus/content/groups/public/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1562812313084
-https\://gitee.com/jarjune/30mvn/raw/master/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1562829114191
+https\://raw.github.com/jarjune/Jdalao-mvn/master/.lastUpdated=1562829110499
 https\://repo.maven.apache.org/maven2/.error=
-https\://gitee.com/jarjune/30mvn/raw/master/.lastUpdated=1562812309170
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1562829113270
