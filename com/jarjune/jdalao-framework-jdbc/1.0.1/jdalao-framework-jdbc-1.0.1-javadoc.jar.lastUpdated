@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Sep 02 15:53:23 CST 2019
+http\://192.168.30.11\:8081/repository/maven-public/.error=Could not transfer artifact com.jarjune\:jdalao-framework-jdbc\:jar\:javadoc\:1.0.1 from/to maven-public (http\://192.168.30.11\:8081/repository/maven-public/)\: Failed to connect to /192.168.30.11\:8081
+@default-maven-public-http\://192.168.30.11\:8081/repository/maven-public/.lastUpdated=1567410800949
+https\://repo.maven.apache.org/maven2/.lastUpdated=1567410803076
+https\://raw.githubusercontent.com/chanlong/maven/release/.error=
+https\://repo.maven.apache.org/maven2/.error=
+https\://raw.githubusercontent.com/chanlong/maven/release/.lastUpdated=1567410802031
