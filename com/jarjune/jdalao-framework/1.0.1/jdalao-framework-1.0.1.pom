@@ -20,6 +20,7 @@
         <module>jdalao-framework-generate-code</module>
         <module>jdalao-framework-support</module>
         <module>jdalao-framework-test</module>
+        <module>jdalao-framework-jdbc</module>
     </modules>
 
 </project>

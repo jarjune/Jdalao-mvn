@@ -62,5 +62,6 @@
         <module>jdalao-logger</module>
         <module>jdalao-framework</module>
         <module>jdalao-sso</module>
+        <module>jdalao-im</module>
     </modules>
 </project>

@@ -1,11 +1,4 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Jul 11 10:57:39 CST 2019
-https\://raw.githubusercontent.com/jarjune/Jdalao-mvn/master/.lastUpdated=1562812245923
-https\://raw.githubusercontent.com/jarjune/Jdalao-mvn/master/.error=
-https\://raw.github.com/jarjune/Jdalao-mvn/master/.lastUpdated=1562813859279
-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1562812244734
-http\://maven.aliyun.com/nexus/content/groups/public/.error=
-https\://repo.maven.apache.org/maven2/.lastUpdated=1562812246926
-https\://gitee.com/jarjune/30mvn/raw/master/.error=
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jan 05 23:12:53 CST 2020
+https\://repo.maven.apache.org/maven2/.lastUpdated=1578237173246
 https\://repo.maven.apache.org/maven2/.error=
-https\://gitee.com/jarjune/30mvn/raw/master/.lastUpdated=1562812242967

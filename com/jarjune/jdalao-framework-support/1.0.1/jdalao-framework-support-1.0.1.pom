@@ -13,7 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>jdalao-framework-support-redis</module>
+        <module>jdalao-framework-support-quartz</module>
     </modules>
-
-
 </project>
