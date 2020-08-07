@@ -1,4 +1,6 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jun 10 22:06:19 CST 2020
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Aug 07 15:18:47 CST 2020
+jdalao-framework-common-1.0.1.pom>Jdalao-repo=
 jdalao-framework-common-1.0.1.jar>=
+jdalao-framework-common-1.0.1.jar>Jdalao-repo=
 jdalao-framework-common-1.0.1.pom>=
